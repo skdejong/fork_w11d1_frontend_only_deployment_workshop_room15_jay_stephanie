@@ -1,4 +1,6 @@
+import React from "react";
 import './App.css';
+import Joke from "../src/components/joke";
 
 function App() {
   return (
@@ -6,6 +8,9 @@ function App() {
       <p>
       Hello World! This is my test-app.
       </p>
+      <div>
+        <Joke />
+      </div>
     </div>
   );
 }
