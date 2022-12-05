@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Joke from "../joke/joke.js";
 
 function App() {
   return (
@@ -8,6 +9,9 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
         Hello World! Edit <code>src/App.js</code> and save to reload.
+        <div>
+        <Joke />
+        </div>
         </p>
         <a
           className="App-link"
